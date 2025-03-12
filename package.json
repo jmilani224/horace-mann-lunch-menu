@@ -1,0 +1,8 @@
+{
+  "name": "school-lunch-calendar",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node generate-ics.js"
+  },
+  "dependencies": {}
+}
