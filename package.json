@@ -4,5 +4,9 @@
   "scripts": {
     "start": "node generate-ics.js"
   },
-  "dependencies": {}
+  "dependencies": {
+  "axios": "^0.27.2",
+  "ical.js": "^1.4.0"
+}
+
 }
