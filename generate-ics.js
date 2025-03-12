@@ -35,7 +35,7 @@ END:VEVENT
 
         icsContent += `END:VCALENDAR`;
 
-        fs.writeFileSync('lunch_menu.ics', icsContent);
+        fs.writeFileSync('calendar.ics', icsContent);
         console.log("Calendar file generated!");
     } catch (error) {
         console.error("Error fetching lunch menu:", error);
