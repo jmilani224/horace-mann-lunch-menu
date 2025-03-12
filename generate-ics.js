@@ -27,7 +27,7 @@ BEGIN:VEVENT
 UID:${date}@schoollunch.com
 DTSTAMP:${format(new Date(), "yyyyMMdd'T'HHmmss'Z'")}
 DTSTART;VALUE=DATE:${date}
-SUMMARY:School Lunch
+SUMMARY:Horace Mann Lunch
 DESCRIPTION:${menuItems}
 END:VEVENT
 `;
