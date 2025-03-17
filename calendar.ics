@@ -4,7 +4,7 @@ PRODID:-//School Lunch Calendar//EN
 
 BEGIN:VEVENT
 UID:20250303@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250303
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Cheeseburger, Hamburger, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Baby Carrots, Seasonal Fresh Fruit, Diced Peaches, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, Variety of Condiments
@@ -12,7 +12,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250304@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250304
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Cheesiest Quesadilla Dippers, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Corn, Seasonal Fresh Fruit, Fruit Cocktail , Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, Tomato Salsa
@@ -20,7 +20,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250305@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250305
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Meatball Sub, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Steamed Broccoli, Seasonal Fresh Fruit, Pineapple Tidbits, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers
@@ -28,7 +28,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250306@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250306
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:General Tso Stir Fry with Rice, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Far East Vegetable Blend, Seasonal Fresh Fruit, Mandarin Oranges, Fortune Cookie, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers
@@ -36,7 +36,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250307@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250307
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:French Toast Sticks, Turkey Sausage Patty, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Potato Triangles, Baked Beans, Seasonal Fresh Fruit, Orange Juice, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, Maple Syrup
@@ -44,7 +44,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250310@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250310
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Beef Fiestada Pizza, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Baby Carrots, Corn, Seasonal Fresh Fruit, Pear Slices, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers
@@ -52,7 +52,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250311@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250311
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Popcorn Chicken, Shredded Cheddar Cheese, Mashed Potatoes, Gravy, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Baby Carrots, Corn, Seasonal Fresh Fruit, Mandarin Oranges, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, Variety of Condiments
@@ -60,7 +60,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250312@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250312
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Chicken Tikka Masala, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Steamed Broccoli, Seasonal Fresh Fruit, Cinnamon Applesauce, Naan Flatbread, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers
@@ -68,7 +68,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250313@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250313
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Chicken Nuggets, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Baked Beans, Curly Fries, Seasonal Fresh Fruit, Pineapple Tidbits, Honey Wheat Dinner Roll, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, BBQ Sauce, Variety of Condiments
@@ -76,7 +76,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250314@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250314
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Baked Chicken Drumstick, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Steamed Green Beans, Seasonal Fresh Fruit, Diced Peaches, Honey Wheat Dinner Roll, 3 Cheese Cavatappi Mac-N-Cheese, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, Variety of Condiments
@@ -84,7 +84,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250317@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250317
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:The Max Cheese Pizza Slice, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Steamed Green Beans, Seasonal Fresh Fruit, Diced Peaches, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers
@@ -92,7 +92,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250318@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250318
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Loaded Nachos, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Corn, Seasonal Fresh Fruit, Fruit Cocktail , Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, Tomato Salsa
@@ -100,7 +100,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250319@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250319
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Cheeseburger, Hamburger, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Curly Fries, Baby Carrots, Seasonal Fresh Fruit, Pineapple Tidbits, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, Variety of Condiments
@@ -108,7 +108,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250320@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250320
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Tangerine Chicken Rice Bowl, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Steamed Broccoli, Seasonal Fresh Fruit, Mandarin Oranges, Fortune Cookie, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers
@@ -116,7 +116,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250321@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250321
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Tyson Chicken Nuggets, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Potato Triangles, Baked Beans, Seasonal Fresh Fruit, Orange Juice, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, Variety of Condiments
@@ -124,7 +124,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250324@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250324
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Mini Corn Dogs, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Steamed Green Beans, Seasonal Fresh Fruit, Diced Peaches, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, Variety of Condiments
@@ -132,7 +132,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250325@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250325
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Bosco Cheesy Breadsticks with Marinara Cup, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Assorted Fresh Veggies, Corn, Seasonal Fresh Fruit, Fruit Cocktail , Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers
@@ -140,7 +140,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250326@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250326
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Chicken Sandwich, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Baby Carrots, Seasonal Fresh Fruit, Pineapple Tidbits, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers, Variety of Condiments
@@ -148,7 +148,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250327@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250327
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Grilled Chicken Penne Alfredo, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Steamed Broccoli, Assorted Fresh Veggies, Seasonal Fresh Fruit, Mandarin Oranges, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers
@@ -156,7 +156,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250328@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250328
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:Pepperoni Pizza Stuffed Breadsticks, Strawberry or Grape Uncrustable Sandwich, Chef Salad with Crackers & Croutons, Yogurt/Chips/Cheese, Curly Fries, Baked Beans, Seasonal Fresh Fruit, Cinnamon Applesauce, Fat Free Milk, 1% Milk, Fat Free Chocolate Milk, String Cheese, Cheez It Crackers
@@ -164,7 +164,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250331@schoollunch.com
-DTSTAMP:20250316T005246Z
+DTSTAMP:20250317T005050Z
 DTSTART;VALUE=DATE:20250331
 SUMMARY:Horace Mann Lunch
 DESCRIPTION:
