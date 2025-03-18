@@ -1,4 +1,4 @@
-javascript
+
 const fs = require('fs');
 const axios = require('axios');
 const { format } = require('date-fns');
