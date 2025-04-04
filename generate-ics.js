@@ -1,55 +1,120 @@
-
 const fs = require('fs');
 const axios = require('axios');
-const { format } = require('date-fns');
+const { format, addMonths } = require('date-fns');
 
 const getLunchMenu = async () => {
   const now = new Date();
-  const year = now.getFullYear();
-  const month = now.getMonth() + 1;
-  const url = `https://myschoolmenus.com/api/organizations/1543/menus/74432/year/${year}/month/${month}/date_overwrites`;
 
-  try {
-    const response = await axios.get(url);
-    const data = response.data.data;
+  let allLunchData = [];
+  let allBreakfastData = [];
 
-    let icsContent = `BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//School Lunch Calendar//EN\n`;
+  for (let offset = 0; offset <= 1; offset++) {
+    const targetDate = addMonths(now, offset);
+    const year = targetDate.getFullYear();
+    const month = targetDate.getMonth() + 1;
 
-    data.forEach(day => {
-      const date = day.day.replace(/-/g, "");
-      let menuItems = '';
+    const lunchUrl = `https://myschoolmenus.com/api/organizations/1543/menus/74432/year/${year}/month/${month}/date_overwrites`;
+    const breakfastUrl = `https://myschoolmenus.com/api/organizations/1543/menus/72767/year/${year}/month/${month}/date_overwrites`;
 
-      try {
-        const displayItems = JSON.parse(day.setting).current_display;
-        const categoryMap = {};
+    try {
+      const [lunchResponse, breakfastResponse] = await Promise.all([
+        axios.get(lunchUrl),
+        axios.get(breakfastUrl)
+      ]);
 
-        displayItems.forEach(item => {
-          if (item.type === "recipe") {
-            if (!categoryMap[item.category]) {
-              categoryMap[item.category] = [];
-            }
-            categoryMap[item.category].push(item.name);
-          }
-        });
-
-        for (const [category, items] of Object.entries(categoryMap)) {
-          menuItems += `\n${category}:\n${items.join("\n")}`;
-        }
-      } catch (e) {
-        console.error(`Error parsing menu for ${date}:`, e);
-      }
-
-      icsContent += `\nBEGIN:VEVENT\nUID:${date}@schoollunch.com\nDTSTAMP:${format(new Date(), "yyyyMMdd'T'HHmmss'Z'")}\nDTSTART;VALUE=DATE:${date}\nSUMMARY:Horace Mann Lunch\nDESCRIPTION:${menuItems}\nEND:VEVENT\n`;
-    });
-
-    icsContent += `END:VCALENDAR`;
-
-    fs.writeFileSync('calendar.ics', icsContent);
-    console.log("Calendar file generated!");
-  } catch (error) {
-    console.error("Error fetching lunch menu:", error);
+      allLunchData = allLunchData.concat(lunchResponse.data.data);
+      allBreakfastData = allBreakfastData.concat(breakfastResponse.data.data);
+    } catch (error) {
+      console.error(`Error fetching menu data for ${month}/${year}:`, error);
+    }
   }
+
+  // Map breakfast data by date for easy lookup
+  const breakfastMap = {};
+  allBreakfastData.forEach(day => {
+    breakfastMap[day.day] = day;
+  });
+
+  let icsContent = `BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//School Lunch Calendar//EN\n`;
+
+  allLunchData.forEach(day => {
+    const date = day.day.replace(/-/g, "");
+    let lunchItems = '';
+    let breakfastItems = '';
+
+    try {
+      const displayItems = JSON.parse(day.setting).current_display;
+      lunchItems = formatMenu(displayItems);
+    } catch (e) {
+      console.error(`Error parsing lunch menu for ${date}:`, e);
+    }
+
+    try {
+      if (breakfastMap[day.day]) {
+        const breakfastDisplay = JSON.parse(breakfastMap[day.day].setting).current_display;
+        breakfastItems = formatMenu(breakfastDisplay);
+      }
+    } catch (e) {
+      console.error(`Error parsing breakfast menu for ${date}:`, e);
+    }
+
+    const fullDescription = `\n\n🍳 Breakfast Menu:${breakfastItems}\n\n\n🍽️ Lunch Menu:${lunchItems}`;
+
+    icsContent += `\nBEGIN:VEVENT\nUID:${date}@schoollunch.com\nDTSTAMP:${format(new Date(), "yyyyMMdd'T'HHmmss'Z'")}\nDTSTART;VALUE=DATE:${date}\nSUMMARY:Horace Mann Breakfast & Lunch\nDESCRIPTION:${escapeIcsText(fullDescription)}\nEND:VEVENT\n`;
+  });
+
+  icsContent += `END:VCALENDAR`;
+
+  fs.writeFileSync('calendar.ics', icsContent);
+  console.log("Calendar file generated!");
 };
 
-getLunchMenu();
+function formatMenu(displayItems) {
+  const categoryMap = {};
+  let currentCategory = '';
 
+  displayItems.forEach(item => {
+    if (item.type === "category") {
+      currentCategory = item.name;
+      if (!categoryMap[currentCategory]) {
+        categoryMap[currentCategory] = [];
+      }
+    } else if (item.type === "recipe" && currentCategory) {
+      categoryMap[currentCategory].push(item.name);
+    }
+  });
+
+  let menuText = '';
+  for (const [category, items] of Object.entries(categoryMap)) {
+    menuText += `\n${getEmoji(category)} ${category}:\n`;
+    items.forEach(item => {
+      menuText += `- ${item}\n`;
+    });
+  }
+
+  return menuText;
+}
+
+function getEmoji(category) {
+  const map = {
+    "Lunch Entree": "🍔",
+    "Vegetables": "🥕",
+    "Fruit": "🍎",
+    "Milk": "🫔",
+    "Misc.": "🧀",
+    "Condiments": "🧂",
+    "Breakfast Entree": "🥞",
+    "Grains": "🥞"
+  };
+  return map[category] || '•';
+}
+
+function escapeIcsText(text) {
+  return text
+    .replace(/\\n/g, '\\n')
+    .replace(/,/g, '\\,')
+    .replace(/;/g, '\\;')
+    .replace(/\r?\n/g, '\\n');
+}
+
+getLunchMenu();
