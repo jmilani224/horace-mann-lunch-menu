@@ -97,14 +97,14 @@ function formatMenu(displayItems) {
 
 function getEmoji(category) {
   const map = {
-    "Lunch Entree": "🍔",
+    "Lunch Entree": "🌮",
     "Vegetables": "🥕",
     "Fruit": "🍎",
-    "Milk": "🫔",
+    "Milk": "🥛",
     "Misc.": "🧀",
     "Condiments": "🧂",
     "Breakfast Entree": "🥞",
-    "Grains": "🥞"
+    "Grains": "🌾"
   };
   return map[category] || '•';
 }
