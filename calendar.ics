@@ -4,7 +4,7 @@ PRODID:-//School Lunch Calendar//EN
 
 BEGIN:VEVENT
 UID:20250602@schoollunch.com
-DTSTAMP:20250624T005537Z
+DTSTAMP:20250625T005559Z
 DTSTART;VALUE=DATE:20250602
 SUMMARY:Horace Mann Breakfast & Lunch
 DESCRIPTION:\n\n🍳 Breakfast Menu:\n\n\n🍽️ Lunch Menu:
@@ -12,15 +12,15 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250603@schoollunch.com
-DTSTAMP:20250624T005537Z
+DTSTAMP:20250625T005559Z
 DTSTART;VALUE=DATE:20250603
 SUMMARY:Horace Mann Breakfast & Lunch
-DESCRIPTION:\n\n🍳 Breakfast Menu:\n🥞 Breakfast Entree:\n- Fruit & Yogurt Parfait with Granola\n- Assorted Cereal Bowls\n- Assorted Cereal Bars\n\n🍎 Fruit:\n- Seasonal Fresh Fruit\n- Apple Juice\n\n🥛 Milk:\n- 1% Milk\n- Fat Free Milk\n- Fat Free Chocolate Milk\n\n🧀 Misc.:\n- String Cheese\n\n\n\n🍽️ Lunch Menu:\n🌮 Lunch Entree:\n- Cheesiest Quesadilla Dippers\n- Strawberry or Grape Uncrustable Sandwich\n- Chef Salad with Crackers & Croutons\n- Yogurt/Chips/Cheese\n\n🥕 Vegetables:\n- Corn\n\n🍎 Fruit:\n- Seasonal Fresh Fruit\n- Fruit Cocktail\n\n🥛 Milk:\n- Fat Free Milk\n- 1% Milk\n- Fat Free Chocolate Milk\n\n🧀 Misc.:\n- String Cheese\n- Cheez It Crackers\n\n🧂 Condiments:\n- Tomato Salsa\n
+DESCRIPTION:\n\n🍳 Breakfast Menu:\n\n\n🍽️ Lunch Menu:\n🌮 Lunch Entree:\n- Cheesiest Quesadilla Dippers\n- Strawberry or Grape Uncrustable Sandwich\n- Chef Salad with Crackers & Croutons\n- Yogurt/Chips/Cheese\n\n🥕 Vegetables:\n- Corn\n\n🍎 Fruit:\n- Seasonal Fresh Fruit\n- Fruit Cocktail\n\n🥛 Milk:\n- Fat Free Milk\n- 1% Milk\n- Fat Free Chocolate Milk\n\n🧀 Misc.:\n- String Cheese\n- Cheez It Crackers\n\n🧂 Condiments:\n- Tomato Salsa\n
 END:VEVENT
 
 BEGIN:VEVENT
 UID:20250604@schoollunch.com
-DTSTAMP:20250624T005537Z
+DTSTAMP:20250625T005559Z
 DTSTART;VALUE=DATE:20250604
 SUMMARY:Horace Mann Breakfast & Lunch
 DESCRIPTION:\n\n🍳 Breakfast Menu:\n🥞 Breakfast Entree:\n- Eggo Confetti Mini Pancakes\n- Assorted Cereal Bowls\n- Assorted Cereal Bars\n\n🍎 Fruit:\n- Seasonal Fresh Fruit\n- Strawberry Banana Applesauce\n\n🥛 Milk:\n- 1% Milk\n- Fat Free Milk\n- Fat Free Chocolate Milk\n\n🧀 Misc.:\n- String Cheese\n\n\n\n🍽️ Lunch Menu:\n🌮 Lunch Entree:\n- Meatball Sub\n- Strawberry or Grape Uncrustable Sandwich\n- Chef Salad with Crackers & Croutons\n- Yogurt/Chips/Cheese\n\n🥕 Vegetables:\n- Steamed Broccoli\n\n🍎 Fruit:\n- Seasonal Fresh Fruit\n- Pineapple Tidbits\n\n🥛 Milk:\n- Fat Free Milk\n- 1% Milk\n- Fat Free Chocolate Milk\n\n🧀 Misc.:\n- String Cheese\n- Cheez It Crackers\n
@@ -28,7 +28,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250605@schoollunch.com
-DTSTAMP:20250624T005537Z
+DTSTAMP:20250625T005559Z
 DTSTART;VALUE=DATE:20250605
 SUMMARY:Horace Mann Breakfast & Lunch
 DESCRIPTION:\n\n🍳 Breakfast Menu:\n🥞 Breakfast Entree:\n- Purple Cow Smoothie\n- Scooby Doo Graham Sticks\n- Assorted Cereal Bowls\n- Assorted Cereal Bars\n\n🍎 Fruit:\n- Seasonal Fresh Fruit\n- Pear Slices\n\n🥛 Milk:\n- 1% Milk\n- Fat Free Milk\n- Fat Free Chocolate Milk\n\n🧀 Misc.:\n- String Cheese\n\n\n\n🍽️ Lunch Menu:\n🌮 Lunch Entree:\n- General Tso Stir Fry with Rice\n- Strawberry or Grape Uncrustable Sandwich\n- Chef Salad with Crackers & Croutons\n- Yogurt/Chips/Cheese\n\n🥕 Vegetables:\n- Far East Vegetable Blend\n\n🍎 Fruit:\n- Seasonal Fresh Fruit\n- Mandarin Oranges\n\n🌾 Grains:\n- Fortune Cookie\n\n🥛 Milk:\n- Fat Free Milk\n- 1% Milk\n- Fat Free Chocolate Milk\n\n🧀 Misc.:\n- String Cheese\n- Cheez It Crackers\n
@@ -36,7 +36,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20250606@schoollunch.com
-DTSTAMP:20250624T005537Z
+DTSTAMP:20250625T005559Z
 DTSTART;VALUE=DATE:20250606
 SUMMARY:Horace Mann Breakfast & Lunch
 DESCRIPTION:\n\n🍳 Breakfast Menu:\n🥞 Breakfast Entree:\n- Breakfast Burrito\n- Assorted Cereal Bowls\n- Assorted Cereal Bars\n\n🍎 Fruit:\n- Seasonal Fresh Fruit\n- Orange Juice\n\n🥛 Milk:\n- 1% Milk\n- Fat Free Milk\n- Fat Free Chocolate Milk\n\n🧀 Misc.:\n- String Cheese\n\n\n\n🍽️ Lunch Menu:\n🌮 Lunch Entree:\n- French Toast Sticks\n- Turkey Sausage Patty\n- Strawberry or Grape Uncrustable Sandwich\n- Chef Salad with Crackers & Croutons\n- Yogurt/Chips/Cheese\n\n🥕 Vegetables:\n- Potato Triangles\n- Baked Beans\n\n🍎 Fruit:\n- Seasonal Fresh Fruit\n- Orange Juice\n\n🥛 Milk:\n- Fat Free Milk\n- 1% Milk\n- Fat Free Chocolate Milk\n\n🧀 Misc.:\n- String Cheese\n- Cheez It Crackers\n\n🧂 Condiments:\n- Maple Syrup\n
