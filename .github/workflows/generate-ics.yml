@@ -11,21 +11,37 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
+
       - name: Install dependencies
         run: npm install
+
       - name: Run generate-ics.js
         run: node generate-ics.js
-      - name: Commit and push generated ICS
+
+      - name: Commit and push generated ICS (if changed)
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          set -e
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/jmilani224/horace-mann-lunch-menu.git
-          git add calendar.ics
-          git commit -m "Update ICS file"
-          git push
+
+          # Stage the file you expect to change (force in case it's ignored)
+          git add -f calendar.ics
+
+          # Only commit/push if something is staged
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update ICS file"
+            git push origin HEAD:main
+          fi
+
