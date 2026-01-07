@@ -13,8 +13,9 @@ const getLunchMenu = async () => {
     const year = targetDate.getFullYear();
     const month = targetDate.getMonth() + 1;
 
-    const lunchUrl = `https://myschoolmenus.com/api/organizations/1543/menus/104005/year/${year}/month/${month}/date_overwrites`;
-    const breakfastUrl = `https://myschoolmenus.com/api/organizations/1543/menus/105963/year/${year}/month/${month}/date_overwrites`;
+    const lunchUrl = `https://menus.healthepro.com/api/organizations/1543/menus/104005/year/${year}/month/${month}/date_overwrites`;
+    
+    const breakfastUrl = `https://menus.healthepro.com/api/organizations/1543/menus/105963/year/${year}/month/${month}/date_overwrites`;
 
     try {
       const [lunchResponse, breakfastResponse] = await Promise.all([
