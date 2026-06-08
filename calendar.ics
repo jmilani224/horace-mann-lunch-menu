@@ -4,7 +4,7 @@ PRODID:-//School Lunch Calendar//EN
 
 BEGIN:VEVENT
 UID:20260601@schoollunch.com
-DTSTAMP:20260607T002916Z
+DTSTAMP:20260608T003048Z
 DTSTART;VALUE=DATE:20260601
 SUMMARY:Horace Mann Breakfast & Lunch
 DESCRIPTION:\n\n🍳 Breakfast Menu:\n\n\n🍽️ Lunch Menu:\n🌮 Lunch Entree:\n- Cook's Choice\n
@@ -12,7 +12,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20260602@schoollunch.com
-DTSTAMP:20260607T002916Z
+DTSTAMP:20260608T003048Z
 DTSTART;VALUE=DATE:20260602
 SUMMARY:Horace Mann Breakfast & Lunch
 DESCRIPTION:\n\n🍳 Breakfast Menu:\n\n\n🍽️ Lunch Menu:\n🌮 Lunch Entree:\n- Cook's Choice\n
@@ -20,7 +20,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20260603@schoollunch.com
-DTSTAMP:20260607T002916Z
+DTSTAMP:20260608T003048Z
 DTSTART;VALUE=DATE:20260603
 SUMMARY:Horace Mann Breakfast & Lunch
 DESCRIPTION:\n\n🍳 Breakfast Menu:\n\n\n🍽️ Lunch Menu:\n🌮 Lunch Entree:\n- Cook's Choice\n
@@ -28,7 +28,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20260604@schoollunch.com
-DTSTAMP:20260607T002916Z
+DTSTAMP:20260608T003048Z
 DTSTART;VALUE=DATE:20260604
 SUMMARY:Horace Mann Breakfast & Lunch
 DESCRIPTION:\n\n🍳 Breakfast Menu:\n\n\n🍽️ Lunch Menu:\n🌮 Lunch Entree:\n- Cook's Choice\n
@@ -36,7 +36,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20260605@schoollunch.com
-DTSTAMP:20260607T002916Z
+DTSTAMP:20260608T003048Z
 DTSTART;VALUE=DATE:20260605
 SUMMARY:Horace Mann Breakfast & Lunch
 DESCRIPTION:\n\n🍳 Breakfast Menu:\n\n\n🍽️ Lunch Menu:
